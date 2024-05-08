@@ -1,4 +1,4 @@
-import { Box, Button } from "@mui/material";
+import { Box } from "@mui/material";
 
 export default function Administrativo() {
   return (
@@ -10,8 +10,7 @@ export default function Administrativo() {
             className="rounded-md w-full p-3 "
             placeholder="¿A donde quieres ir hoy?"
           />
-
-          <Button type="submit" className="absolute right-6 top-6 bg-white">
+          <button type="submit" className="absolute right-6 top-6 bg-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -25,7 +24,7 @@ export default function Administrativo() {
                 d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
               />
             </svg>
-          </Button>
+          </button>
         </div>
         <div className="max-w-sm mx-auto mt-20 p-4 shadow-md rounded-lg border-t-2 bg-white">
           <div className="flex justify-between pb-4">
